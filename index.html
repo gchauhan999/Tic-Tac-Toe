@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="tictactoe.css">
+    <script src="scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Welcome to Tic Tac Toe</h1>
+        <p>Get ready to play!</p>
+        <p><button onclick="resetBoard()" type="button" class="btn btn-primary btn-lg" name="button">Restart</button></p>
+      </div>
+      <table>
+        <tr>
+          <td id='1' onclick="handleClick(this)"></td>
+          <td id='2' onclick="handleClick(this)"></td>
+          <td id="3" onclick="handleClick(this)"></td>
+        </tr>
+        <tr>
+          <td id='4' onclick="handleClick(this)"></td>
+          <td id='5' onclick="handleClick(this)"></td>
+          <td id="6" onclick="handleClick(this)"></td>
+        </tr>
+        <tr>
+          <td id='7' onclick="handleClick(this)"></td>
+          <td id='8' onclick="handleClick(this)"></td>
+          <td id="9" onclick="handleClick(this)"></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

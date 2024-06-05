@@ -1,0 +1,30 @@
+body{  
+  background: -webkit-linear-gradient(to right, #375703, #c2e68a); 
+  background: linear-gradient(to right, #375703, #c2e68a); 
+  
+}
+.btn-primary{
+  background-color: yellow;
+  
+}
+h1{
+  color: aliceblue;
+}
+.jumbotron {
+  margin: auto;
+  text-align: center;
+}
+
+td {
+  height:100px;
+  width:100px;
+  text-align: center;
+  font-size: 80px;
+}
+
+table {
+  margin: auto auto;
+}
+table,td{
+  border: 1px #000 solid;
+}
